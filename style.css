@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-image: url(images/backg.png);
+    background-size: cover;
+    font-family: 'Cardo';
+}
+.header {       
+    box-sizing: border-box; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 1% 5%;
+    z-index: 1000; 
+    font-family: 'Cardo';
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+nav img{
+    width: 320px;
+}
+.nav-links {
+    text-align: right;
+    position: relative; 
+    z-index: 1; 
+}
+.nav-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 20px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    padding: 3px 3px;
+    position: relative;
+    font-family: 'Cardo';
+}
+
+.nav-links a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #7b7c76;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.nav-links a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 5px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #7b7c76;
+    color: #f4f4f4;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.text-box {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 2; 
+}
+
+.text-box h1 {
+    color: #f4f4f4;
+    margin: 20px 0px 20px;
+    padding-top: 15%;
+    padding-left: 2%;
+    font-size: 75px;
+    text-align: center;
+}
+
+.text-box h3 {
+    font-size: 15px;
+    color: #f4f4f4;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn-box{
+    font-size: 25px;
+    width: 140px;
+    height: 30px;
+    padding-left: 21%;
+    margin-top: 32%;
+}
+.btn-box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 5px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #7b7c76;
+    color: #f4f4f4;
+}
+.btn-box a:hover {
+    transform: scale(1.1);
+}
