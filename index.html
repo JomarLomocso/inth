@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/hair.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
     <title>J Barbeshop</title>
 </head>
 <body>
-    <section class="header">
+    <section class="landing">
         <nav>
             <a href="/"><img src="images/wlogo.png" class="logo"></a>
             <div class="nav-links">
@@ -31,5 +33,89 @@
         <a href="#">Book Now</a>
     </div>
     </section>
+    <br>
+    <section class="widgets">
+        <div class="fwidget">
+          <a style="text-decoration: none;" href=""><img src="images/fw.svg" class="fw" alt="Contact Us Icon">  
+          <div class="text-container"><h3>Contact Us</h3></a></div>
+        </div>
+        <div class="swidget">
+        <a style="text-decoration: none;" href=""> <img src="images/sw.svg" class="sw" alt="Book a Reservation Icon">
+          <div class="text-container"><h3>Book a Reservation</h3></a></div>
+        </div>
+        <div class="twidget">
+        <a style="text-decoration: none;" href=""><img src="images/tw.svg" class="tw" alt="Our Services Icon"> 
+          <div class="text-container"><h3>Our Services</h3></a></div>
+        </div>
+    </section>
+    <section class="short">
+        <div class="text-box2">
+            <h1>Time-Honored &<br>Traditional</h1>
+        </div>
+        <div class="us">
+            <a href="/"><h5>This is us</h5>
+            <img src="images/arrow.svg" class="arrow"></a>
+        </div>
+        <div class="line"></div>
+        <div class="text-box3"><h9>Step into J Barbershop, where timeless charm meets contemporary flair.
+             With our classic barber chairs, traditional hot lather, and precision straight-edge razor shaves,
+              we transport you back to a bygone era while embracing the best of modern grooming. Indulge in our
+               soothing head and neck massages, and let our skilled barbers craft your desired look, whether it's 
+               a classic short cut or a trendy men's style. Discover why J Barbershop stands out from the crowd - 
+               it's an experience that's simply shear perfection!</h9>
+            </div>
+    </section>
+    <section class="gallery">
+        <div class="grid-gallery">
+            <div class="grid-item">
+                <img src="images/b1.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b2.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b3.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b4.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b5.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b6.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b7.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b8.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b9.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b10.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b11.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="images/b12.jpg">
+            </div>
+        </div>
+    </section> 
+    <section class="testimonials">
+        <div class="title">
+            <h1><b>HERE'S WHAT THEY'RE SAYING...</b></h1>
+        </div>
+        <div class="wrapper">
+            <div class="testimonial-container" id="testimonial-container"></div>
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+          </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
+    
