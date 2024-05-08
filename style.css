@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    margin-bottom: 10px;
 }
 nav{
     display: flex;
@@ -30,16 +31,13 @@ nav{
     flex: 1;
     text-align: right;
     text-align: center;
-    font-size: 20px;
+    text-align: right;
+    position: relative; 
+    z-index: 1; 
 }
 nav img{
     padding-top: 5%;
     width: 320px;
-}
-.nav-links {
-    text-align: right;
-    position: relative; 
-    z-index: 1; 
 }
 .nav-links a {
     color: #f4f4f4;
@@ -52,6 +50,7 @@ nav img{
     padding: 3px 3px;
     position: relative;
     font-family: 'Cardo';
+    font-size: 20px;
 }
 
 .nav-links a::before {
@@ -82,7 +81,7 @@ nav img{
     border: none;
     outline: none;
     border-radius: 25px;
-    background: #7b7c76;
+    background: #4d4d4d;
     color: #f4f4f4;
     font-size: 18px;
 }
@@ -110,7 +109,6 @@ nav img{
     text-align: center;
 }
 .btn-box{
-    font-size: 25px;
     width: 130px;
     height: 30px;
     padding-left: 22%;
@@ -127,8 +125,9 @@ nav img{
     border: none;
     outline: none;
     border-radius: 25px;
-    background: #7b7c76;
+    background: #4d4d4d;
     color: #f4f4f4;
+    font-size: 20px;
 }
 .btn-box a:hover {
     transform: scale(1.1);
@@ -139,6 +138,7 @@ nav img{
     background-color: black;
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
 }
 .text-container {
     display: flex;
@@ -279,7 +279,7 @@ nav img{
 .testimonials{
     position: relative;
     height: 80vh;
-    background-image: url(images/2backg.jpg);
+    background-image: url(images/bback.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -288,7 +288,7 @@ nav img{
     padding-top: 3px;
 }
 .title h1{
-    color: #2f2f2f;
+    color: #f4f4f4;
     font-size: 50px;
 }
 .wrapper {
@@ -430,7 +430,7 @@ footer{
 a{
     text-decoration: none;
 }
-a:hover{
+.footer-content a:hover{
     color: #7b7c76;
 }
 .social-icons i:hover{
