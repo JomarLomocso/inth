@@ -43,7 +43,7 @@ nav img{
     color: #f4f4f4;
     text-decoration: none;
     font-size: 15px;
-    margin: 0 20px;
+    margin: 0 10px;
     font-weight: bold;
     list-style: none;
     display: inline-block;
@@ -102,8 +102,8 @@ nav img{
     font-size: 75px;
     text-align: center;
 }
-.text-box h3 {
-    font-size: 15px;
+.text-box h2 {
+    font-size: 18px;
     color: #f4f4f4;
     margin-bottom: 50px;
     text-align: center;
@@ -132,7 +132,7 @@ nav img{
 .btn-box a:hover {
     transform: scale(1.1);
 }
-.widgets{
+/*.widgets{
     position: relative;
     height: 20vh;
     background-color: black;

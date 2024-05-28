@@ -27,7 +27,8 @@ nav{
     padding: 0 5%;
     z-index: 1000; 
     font-family: 'Cardo';
-    transition: background-color 0.5s ease-out;     
+    background-color: rgba(47, 47, 47, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(100px); /* Blur effect */
 }
 .nav-links{
     flex: 1;
@@ -45,7 +46,7 @@ nav img{
     color: #f4f4f4;
     text-decoration: none;
     font-size: 15px;
-    margin: 0 20px;
+    margin: 0 10px;
     font-weight: bold;
     list-style: none;
     display: inline-block;
@@ -89,7 +90,7 @@ nav img{
 .button:hover {
     transform: scale(1.1);
 }
-.text-box {
+/*.text-box {
     text-align: center;
     display: flex; 
     justify-content: center;
@@ -167,7 +168,7 @@ nav img{
     text-align: justify;
     margin-top: 15px;
     color: #f4f4f4;
-}
+}*/
 .built{
     padding: auto;
     position: relative;
