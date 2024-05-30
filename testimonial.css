@@ -58,7 +58,7 @@ nav img {
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #7b7c76;
+    background-color: #6a2527;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
@@ -78,7 +78,7 @@ nav img {
     border: none;
     outline: none;
     border-radius: 25px;
-    background: #4d4d4d;
+    background: #6a2527;
     color: #f4f4f4;
     font-size: 18px;
 }

@@ -8,7 +8,7 @@ body {
 .landing {   
     position: relative;
     height: 100vh;
-    background-image: url(images/backg.png);
+    background-image: url(images/bback.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -25,7 +25,7 @@ nav{
     padding: 0 5%;
     z-index: 1000; 
     font-family: 'Cardo';
-    transition: background-color 0.5s ease-out;     
+      
 }
 .nav-links{
     flex: 1;
@@ -60,7 +60,7 @@ nav img{
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #7b7c76;
+    background-color: #6a2527;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
@@ -81,7 +81,7 @@ nav img{
     border: none;
     outline: none;
     border-radius: 25px;
-    background: #4d4d4d;
+    background: #6a2527;
     color: #f4f4f4;
     font-size: 18px;
 }
@@ -125,7 +125,7 @@ nav img{
     border: none;
     outline: none;
     border-radius: 25px;
-    background: #4d4d4d;
+    background: #6a2527;
     color: #f4f4f4;
     font-size: 20px;
 }
